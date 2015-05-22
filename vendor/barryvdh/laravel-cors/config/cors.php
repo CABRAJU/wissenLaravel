@@ -17,12 +17,12 @@ return array(
      */
     'defaults' => array(
         'supportsCredentials' => false,
-        'allowedOrigins' => array('*'),
-        'allowedHeaders' => array('*'),
-        'allowedMethods' => array('POST', 'PUT', 'GET', 'DELETE', 'OPTION'),
+        'allowedOrigins' => array(),
+        'allowedHeaders' => array(),
+        'allowedMethods' => array(),
         'exposedHeaders' => array(),
         'maxAge' => 0,
-        'hosts' => array('*'),
+        'hosts' => array(),
     ),
 
     'paths' => array(
